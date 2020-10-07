@@ -62,13 +62,13 @@ public class OwnerVO  {
    public void setBankAccount(Integer bankAccount) { this.bankAccount = bankAccount; }
    public void setBankName(String bankName) { this.bankName = bankName; }
    public void setStore(StoreVO store) { this.store = store; }
-r
-@Override
-public String toString() {
-	return "OwnerVO [no=" + no + ", name=" + name + ", phone=" + phone + ", id=" + id + ", pw=" + pw + ", email="
-			+ email + ", membershipDate=" + membershipDate + ", bankAccount=" + bankAccount + ", bankName=" + bankName
-			+ ", store=" + store + "]";
-}
+
+   @Override
+	public String toString() {
+		return "OwnerVO [no=" + no + ", name=" + name + ", phone=" + phone + ", id=" + id + ", pw=" + pw + ", email="
+				+ email + ", membershipDate=" + membershipDate + ", bankAccount=" + bankAccount + ", bankName=" + bankName
+				+ ", store=" + store + "]";
+	}
    
 ////가게 getters
 //   public Integer getStoreNo() {return storeNo;}
